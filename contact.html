@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Holiday Travel</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <!-- Logo and site name -->
+            <div class="navbar-left">
+                <img src="logo.png" alt="Express Holiday Travel" class="logo">
+                <h1>Express Holiday Travel</h1>
+            </div>
+    
+            <!-- Navigation links on the right -->
+            <div class="navbar-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bali.html">Bali</a></li>
+                    <li><a href="paris.html">Paris</a></li>
+                    <li><a href="tokyo.html">Tokyo</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+     <section class="form-section">
+       
+    
+        
+          <h5 class="title-heading">Contact Us</h5>
+          <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            <br>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        
+     
+     </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Express Holiday Travel. All rights reserved.</p>
+            <p><small>This is a fictional website created for educational purposes and does not offer actual travel services.</small></p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+    
+</html>
